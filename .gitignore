@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training / evaluation artifacts
+weights/
+final_weight/
+Results/
+Results_*/
+*.pth
+*.pt
+*.ckpt
+
+# Logs
+*.log
