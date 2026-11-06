@@ -70,20 +70,26 @@ cd Shot-again
 
 ## Datasets
 
-The dataset package used by this repository is available here:
+Shot-Again is evaluated on six publicly available underwater image enhancement benchmarks:
 
-**[Download datasets from Google Drive](https://drive.google.com/file/d/1wt-nO6-HIT72p70SIAQtUzyOYYywEImM/view?usp=drive_link)**
+| Dataset | Official Source |
+|---|---|
+| UIEBD | https://li-chongyi.github.io/proj_benchmark.html |
+| RUIE | https://github.com/dlut-dimt/Realworld-Underwater-Image-Enhancement-RUIE-Benchmark |
+| TestC60 | https://li-chongyi.github.io/proj_benchmark.html |
+| UFO120 | https://irvlab.cs.umn.edu/resources/ufo-120-dataset |
+| EUVP-IM | https://irvlab.cs.umn.edu/resources/euvp-dataset |
+| OceanDark | https://sites.google.com/view/oceandark/home |
 
-The paper evaluates Shot-Again on:
+**Data availability and usage**
 
-- UIEBD
-- RUIE
-- TestC60
-- UFO120
-- EUVP-IM
-- OceanDark
+The original datasets are maintained by their respective providers. We do not redistribute third-party dataset images through this repository.
 
-Please follow the licenses and citation requirements of the original dataset providers.
+Researchers should obtain the datasets directly from the original sources and comply with the applicable licenses, usage conditions, and citation requirements.
+
+In particular, the UIEB dataset explicitly prohibits redistribution. TestC60 is the challenging subset of UIEB and is subject to the same restrictions.
+
+The experimental code and configuration files provided in this repository are intended to support reproducibility without redistributing third-party datasets.
 
 ## Pretrained Models
 
